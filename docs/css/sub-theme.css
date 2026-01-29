@@ -1,0 +1,162 @@
+/* --- SUB THEME --- */
+/*NOTE: change to #00ff66 for neon green */
+
+/* Hide the project repo header */
+.project-name, 
+.project-tagline, 
+.header { 
+    display: none !important; 
+}
+    
+body {
+    background-color: #000000;
+    color: #00eaff; /* neon blue */
+    font-family: "JetBrains Mono", "Fira Code", monospace;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    color: #00ff66;
+    text-align: center;
+    text-shadow: 0 0 8px #00eaff;
+    border-bottom: 1px solid #00eaff33;
+    padding-bottom: 4px;
+} 
+
+h2 {
+    color: #00ff66;
+    text-shadow: 0 0 8px #00eaff;
+    border-bottom: 1px solid #00eaff33;
+    padding-bottom: 4px;
+    font-size: 1.0em;
+    text-align: center;
+}
+
+h2 a { 
+      color: #00ff66 !important; 
+      text-decoration: none; }
+h2 a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 6px #00eaff;
+}
+
+
+h3, h4 {
+    color: #00eaff;
+    text-shadow: 0 0 8px #00eaff;
+    border-bottom: 1px solid #00eaff33;
+    padding-bottom: 4px;
+}
+
+/* Links */
+a {
+    color: #00eaff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 6px #00eaff;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 0;
+}
+td, th {
+    border: 1px solid #00eaff55;
+    padding: 10px;
+}
+tr:hover {
+    background-color: #001a22;
+}
+
+/* Horizontal rule */
+hr {
+    border: 0;
+    border-top: 1px solid #00eaff55;
+    margin: 20px 0;
+}
+
+/* Spacing */
+br {
+    line-height: 2;
+}
+
+/*Fixing PGP Code Block */
+
+pre code {
+    background: #000000;
+    background-color: #000000 !important;
+    color: #00eaff;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+    white-space: pre;
+}
+
+pre {
+    overflow: visible;
+    background: #000000;
+    background-color: #000000 !important;
+    color: inherit;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+}
+.center-code { 
+    display: flex; 
+    justify-content: center; 
+    } 
+.center-code pre { 
+    width: fit-content; 
+    max-width: 100%; 
+    }
+
+/* Remove default GitHub/Jekyll code block wrappers */
+.highlight,
+.highlighter-rouge,
+pre.highlight,
+div.highlight {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    position: static !important;
+}
+
+/* Remove corner dots or pseudo-elements */
+.highlight::before,
+.highlight::after,
+.highlighter-rouge::before,
+.highlighter-rouge::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Remove any corner decorations */
+.highlight span::before,
+.highlight span::after {
+    display: none !important;
+}
+
+/* Use for centered tables */
+.table-centered-class {
+    display: flex;
+    justify-content: center;
+}
+
+/* Paragraph padding */
+p { 
+    padding-left: 3em; 
+    padding-right: 3em; 
+    }
+
+/* Lists */
+ul {
+    padding: 1em 8em;
+    margin: 0;
+}
